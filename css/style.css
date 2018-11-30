@@ -71,9 +71,25 @@ html,body {
     border-bottom: 1px solid #fbcb21;
     
 }
+
+ ::placeholder {
+    font-weight: 300; 
+    color:rgba(255, 255, 255, 0.425);
+}
  .formInputs {
     margin: 0 auto;
     flex-direction: column;
     align-items: center;
     display: flex;
+}
+
+.btn {
+    width: 30rem;
+    height: 5rem;
+    background-color: #fbcb21;
+    margin-top: 5rem;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    color: #00013A;
 }
