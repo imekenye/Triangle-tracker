@@ -13,4 +13,32 @@ html,body {
 .logo {
     float: left;
     padding: 5rem;
+    display: inline-block;
+}
+
+.leftSideText h1{
+    margin: 0;
+    float: left;
+    font-size: 6rem;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    top:20rem;
+    left: 20rem;
+}
+.lightText {
+    font-weight: 300;
+}
+
+.leftSideText p{
+    width:30rem;
+    margin: 0;
+    float: left;
+    font-size: 1.2rem;
+    color: white;
+    display: inline-block;
+    position: absolute;
+    top:35rem;
+    left: 20rem;
+    line-height: 1.7;
 }
