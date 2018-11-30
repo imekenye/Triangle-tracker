@@ -7,6 +7,7 @@ html,body {
     line-height: 1.15;
     font-family: 'Poppins', sans-serif;
     background-color: #00013A;
+    height: 100vh;
     
 }
 
@@ -53,9 +54,9 @@ html,body {
     border: 1px solid #fbcb21;
     position: absolute;
     right: 10rem;
-    top: 17rem;
+    top: 15rem;
     width: 40rem;
-    height: 60rem;
+    height: 50rem;
 }
 .form-input {
     padding: 1.5rem;
@@ -84,7 +85,7 @@ html,body {
 }
 
 .btn {
-    width: 30rem;
+    width: 35rem;
     height: 5rem;
     background-color: #fbcb21;
     margin-top: 5rem;
@@ -92,4 +93,9 @@ html,body {
     outline: none;
     font-size: 1.5rem;
     color: #00013A;
+    transition: all .3s;
+}
+.btn:hover {
+    cursor: pointer;
+    background-color: #fff;
 }
