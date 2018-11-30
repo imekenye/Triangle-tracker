@@ -51,4 +51,29 @@ html,body {
 .rightSide {
     float: right;
     border: 1px solid #fbcb21;
+    position: absolute;
+    right: 10rem;
+    top: 17rem;
+    width: 40rem;
+    height: 60rem;
+}
+.form-input {
+    padding: 1.5rem;
+    margin-top: 6rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    font-size: 1.5rem;
+    color: white;
+    width: 30rem;
+    outline: none;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fbcb21;
+    
+}
+ .formInputs {
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
 }
