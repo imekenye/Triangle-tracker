@@ -17,12 +17,13 @@
         <p>A web page that allows the user to input the lengths of the sides of a triangle, and returns whether these sides form an <b class="textYellow">Equilateral</b>, <b class="textYellow">Isosceles</b>, or <b class="textYellow">Scalene</b> triangle or if the sides cannot make a triangle at all.</p>
     </div>
     <div class="rightSide">
-        <form id="rightForm" method="post" action="">
+        <form id="rightForm">
         
             <div class="formInputs">
-                <input type="number" class="form-input" placeholder="side A" required><br> 
-                <input type="number" class="form-input" placeholder="side B" required><br> 
-                <input type="number" class="form-input" placeholder="side C" required><br> 
+                <input type="number" class="form-input" placeholder="Enter side A" min="1" max="9999999999" step="0.1" required><br> 
+                <input type="number" class="form-input" placeholder="Enter side B" min="1" max="9999999999" step="0.1" required><br> 
+                <input type="number" class="form-input" placeholder="Enter side C" min="1" max="9999999999" step="0.1" required><br> 
+                <button class="btn">Track</button>
             </div>    
            
         </form>
