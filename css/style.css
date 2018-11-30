@@ -9,3 +9,8 @@ html,body {
     background-color: #00013A;
     
 }
+
+.logo {
+    float: left;
+    padding: 5rem;
+}
