@@ -19,26 +19,36 @@ html,body {
 .leftSideText h1{
     margin: 0;
     float: left;
-    font-size: 6rem;
+    font-size: 10rem;
+    line-height: 0.9;
     color: white;
     display: inline-block;
     position: absolute;
-    top:20rem;
-    left: 20rem;
+    top:24rem;
+    left: 12rem;
 }
 .lightText {
     font-weight: 300;
 }
 
 .leftSideText p{
-    width:30rem;
+    width:35rem;
     margin: 0;
     float: left;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    font-weight: 300;
     color: white;
     display: inline-block;
     position: absolute;
-    top:35rem;
-    left: 20rem;
-    line-height: 1.7;
+    top: 42rem;
+    left: 14rem;
+    line-height: 1.6;
+}
+.textYellow {
+    color: #fbcb21;
+}
+
+.rightSide {
+    float: right;
+    border: 1px solid #fbcb21;
 }
