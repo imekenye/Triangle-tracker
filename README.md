@@ -34,6 +34,19 @@ None of the sides are be equal.However, the sum of any two sides of the triangle
 ##### INPUT EXAMPLE: SIDE A = 2 SIDE B = 4 SIDE C = 3
 ##### OUTPUT EXAMPLE: Scalene Triangle none of the sides are equal.
 
+### 4. Behaviour
+#### Our program should handle:
+if the sum of any two sides of the triangle is equal to or less than the third remaining side
+
+##### INPUT EXAMPLE: SIDE A = 2 SIDE B = 2 SIDE C = 10
+##### OUTPUT EXAMPLE: Cannot form triangle!
+
+### 5. Behaviour
+#### Our program should handle:
+if not a number
+
+##### INPUT EXAMPLE: SIDE A = BLANK SIDE B = BLANK SIDE C = BLANK
+##### OUTPUT EXAMPLE: Please enter a number for all sides!.
 ## Technologies Used
 * HTML
 * CSS
