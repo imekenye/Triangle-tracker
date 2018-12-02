@@ -12,7 +12,28 @@ The following installations should be run in your command line interface.
 ``` https://github.com/imekenye/Triangle-tracker.gitt ```
 ## Known Bugs
 There no bugs but if any you contact me <a href="https://github.com/imekenye/Portfolio-Landing-Page/issues/new">HERE</a>
-## Behavoiur Driven Development
+## Behaviour Driven Development
+### 1. Behaviour
+#### Our program should handle:
+All triangle sides must be equal.
+
+##### INPUT EXAMPLE: SIDE A = 2 SIDE B = 2 SIDE C = 2
+##### OUTPUT EXAMPLE: Equilateral Triangle all sides are equal.
+
+### 2. Behaviour
+#### Our program should handle:
+Two triangle sides must be equal.
+
+##### INPUT EXAMPLE: SIDE A = 2 SIDE B = 2 SIDE C = 4
+##### OUTPUT EXAMPLE: Isoceles Triangle two sides are equal.
+
+### 3. Behaviour
+#### Our program should handle:
+None of the sides are be equal.However, the sum of any two sides of the triangle must be greater than the third side.
+
+##### INPUT EXAMPLE: SIDE A = 2 SIDE B = 4 SIDE C = 3
+##### OUTPUT EXAMPLE: Scalene Triangle none of the sides are equal.
+
 ## Technologies Used
 * HTML
 * CSS
