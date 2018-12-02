@@ -9,7 +9,7 @@ The following installations should be run in your command line interface.
 * Clone this repository.
 * On the terminal, navigate to your workspace directory.
 * Run
-``` https://github.com/imekenye/Triangle-tracker.gitt ```
+``` https://github.com/imekenye/Triangle-tracker.git ```
 ## Known Bugs
 There no bugs but if any you contact me <a href="https://github.com/imekenye/Portfolio-Landing-Page/issues/new">HERE</a>
 ## Behaviour Driven Development
