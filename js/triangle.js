@@ -20,5 +20,5 @@ function finalResult(){
         answerResult.textContent="Scalene Triangle: No sides are equal!";
       }
     }
-     
+    
     }
