@@ -54,6 +54,12 @@ html,body{
     border: none;
     border-bottom: 1px solid #fbcb21;
     margin-top: 6rem;
+    border-radius: 0;
+    padding: 2rem;
+}
+.form-control:focus {
+   background-color: #fbcb21; 
+   color: #00013A;
 }
 
  ::placeholder {
@@ -76,7 +82,6 @@ html,body{
     height: 5rem;
     background-color: #fbcb21;
     margin-top: 5rem;
-    /* margin-bottom: 5rem; */
     border: none;
     outline: none;
     font-size: 1.5rem;
