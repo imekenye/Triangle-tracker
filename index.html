@@ -17,7 +17,7 @@
             <div class="content m-auto d-flex">
                 <div class="leftSideText float-left col">
                         <h1>Triangle <br><span class="lightText">Tracker</span></h1>
-                        <p>A Web App that allows the user to input the lengths of the sides of a triangle, and returns whether these sides form an <b class="textYellow">Equilateral</b>, <b class="textYellow">Isosceles</b>, or <b class="textYellow">Scalene</b> triangle.</p>
+                        <p>A Web App that allows the user to input the lengths of the sides of a triangle, and returns whether these sides form an <strong class="textYellow">Equilateral</strong>, <strong class="textYellow">Isosceles</strong>, or <strong class="textYellow">Scalene</strong> triangle.</p>
                     </div>
                     <div class="rightSide float-right col">
                         <form id="rightForm">
@@ -26,7 +26,10 @@
                                 <input type="number" id="sideA" class="form-input form-control" placeholder="Enter side A" min="1" max="9999999999" step="0.1" required><br> 
                                 <input type="number" id="sideB" class="form-input form-control" placeholder="Enter side B" min="1" max="9999999999" step="0.1" required><br> 
                                 <input type="number" id="sideC" class="form-input form-control" placeholder="Enter side C" min="1" max="9999999999" step="0.1" required><br> 
-                                <input class="btn" type="button" value="Track" onclick="finalResult()">
+                                <div class="buttons justify-content-between">
+                                    <input class="btn1 " type="button" value="Track" onclick="finalResult()">
+                                    <input class="btn2" type="button" value="Reset" onclick="reset()">
+                               </div>
                                 <p id="answerResult"></p>
                             </div>    
                             
