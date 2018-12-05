@@ -77,22 +77,47 @@ html,body{
     padding: 5rem;
 }
 
-.btn {
-    width: 35rem;
+.btn1 {
+    width: 13rem;
     height: 5rem;
-    background-color: #fbcb21;
+    background-color: #fff;
     margin-top: 5rem;
     border: none;
     outline: none;
     font-size: 1.5rem;
     color: #00013A;
     transition: all .3s;
+    border-radius: none;
 }
-.btn:hover {
+
+.btn2 {
+    width: 13rem;
+    height: 5rem;
+    background-color: transparent;
+    margin-top: 5rem;
+    border: 1px solid #fff;
+    outline: none;
+    font-size: 1.5rem;
+    color: #fff;
+    transition: all .3s;
+}
+.btn1:hover {
     cursor: pointer;
-    background-color: #fff;
+    background-color: #fbcb21;
+}
+
+.btn2:hover {
+    color: #00013A;
+    border: none;
+    cursor: pointer;
+    background-color: #fbcb21;
 }
 #answerResult {
     color: #fbcb21;
     font-size: 2rem;
+}
+.buttons {
+    width: 30rem;
+    display: flex;
+    flex-direction: row;
 }
