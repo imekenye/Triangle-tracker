@@ -22,3 +22,6 @@ function finalResult(){
     }
     
     }
+    function reset(){
+      $("#sideA, #sideB, #sideC").val("");
+    }
